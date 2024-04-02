@@ -1,0 +1,63 @@
+
+main {
+    display: flex;
+    // justify-content: center;
+    flex-direction: column;
+}
+
+a {
+    color: black;
+
+    &:hover {
+        color: rgb(179, 28, 28);
+    }
+}
+
+fa-icon {
+    padding: 10px;
+}
+
+#header-section {
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+    height: 80vh;
+
+    margin-bottom: 40px;
+
+    .header-text {
+        flex: 1;
+        // Alinhar texto no centro
+        text-align: center;
+        margin: 10px;
+        margin-left: 40px;
+
+        h1 {
+            font-size: 56px;
+            font-family: Send Flowers;
+            // font-family: Ruthie;
+            // font-family: Rouge Script;
+        }
+
+        h2 {
+            font-size: 32px;
+            color: black;
+        }
+    }
+
+    .header-image {
+        flex: 1;
+        // Alinhar imagem no centro
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+
+        img {
+            width: 40%;
+            height: 40%;
+    
+            margin-right: 40px;
+        };
+    }
+}
