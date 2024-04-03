@@ -3,7 +3,7 @@ a {
     color: black;
 
     &:hover {
-        color: rgb(179, 28, 28);
+        color: var(--tertiary-color);
     }
 }
 

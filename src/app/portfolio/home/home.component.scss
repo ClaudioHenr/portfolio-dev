@@ -9,7 +9,7 @@ a {
     color: black;
 
     &:hover {
-        color: rgb(179, 28, 28);
+        color: var(--tertiary-color);
     }
 }
 
@@ -33,7 +33,7 @@ fa-icon {
         margin-left: 40px;
 
         h1 {
-            font-size: 56px;
+            font-size: 58px;
             font-family: Send Flowers;
             // font-family: Ruthie;
             // font-family: Rouge Script;
