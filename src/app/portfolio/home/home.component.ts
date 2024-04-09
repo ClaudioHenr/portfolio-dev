@@ -5,6 +5,7 @@ import { faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ProjectsComponent } from '../projects/projects.component';
 import { SkillsComponent } from '../skills/skills.component';
+import { faCode } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-home',
@@ -23,4 +24,5 @@ export class HomeComponent {
   faGithub = faGithub
   faLinkedin = faLinkedin
   faInstagram = faInstagram
+  faCode = faCode
 }
