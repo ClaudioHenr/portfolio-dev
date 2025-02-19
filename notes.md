@@ -57,4 +57,9 @@ pasta .../app/portfolio
     component contact
 
 
+## Fazer deploy
+
+Executar comando 
+    ng build
+
 
