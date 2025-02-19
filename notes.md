@@ -66,9 +66,10 @@ Executar comando
 
     ng build --output-path docs --base-href /portifolio-v1/
 
-Copiar arquivos de dist/browser
+Copiar arquivos de docs/browser
 Colar em docs/
 
+por que no github está configurado para fazer buil do que estiver dentro de /docs
 
 
 
