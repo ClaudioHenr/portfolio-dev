@@ -62,4 +62,9 @@ pasta .../app/portfolio
 Executar comando 
     ng build
 
+Copiar arquivos de dist/browser
+Colar em docs/
 
+
+## Criar READ_ME
+https://profile-readme-generator.com/
