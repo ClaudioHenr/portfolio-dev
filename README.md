@@ -1,29 +1,63 @@
-# PortifolioV1
+<div align="left">
+  <img src="https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=white&style=for-the-badge" height="40" alt="angularjs logo"  />
+  <img width="12" />
+  <img src="https://img.shields.io/badge/Sass-CC6699?logo=sass&logoColor=black&style=for-the-badge" height="40" alt="sass logo"  />
+</div>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.1.
+###
 
-Este projeto tem por objetivo mostrar meus projetos de desenvolvimento, assim como habilidades tech
+<h1 align="left">Portfólio</h1>
 
-## Development server
+###
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<p align="left">Olá, sou Claudio Henrique, um desenvolvedor FullStack</p>
 
-## Code scaffolding
+###
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<h2 align="left">Conheça um pouco sobre mim</h2>
 
-## Build
+###
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<p align="left">📚 Eu estou no momento aprendendo <br>🎯 Tenho por objetivo me tornar um desenvolvedor Sênior<br>🎲 Um fato curioso é que após severas horas de debbug tentando encontrar o erro de deploy, bem... é portfolio e não portifolio!</p>
 
-## Running unit tests
+###
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<div align="left">
+  <a href="https:/www.linkedin.com/in/claudio-oliveira20" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
+  </a>
+</div>
 
-## Running end-to-end tests
+###
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+<h2 align="left">Prática nas linguagens de programação</h2>
 
-## Further help
+###
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
+</div>
+
+###
+
+<h2 align="left">Experiência nas tecnologias</h2>
+
+###
+
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" height="40" alt="angularjs logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" height="40" alt="azure logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="nodejs logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
+</div>
+
+###
