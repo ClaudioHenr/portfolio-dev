@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { openPDF } from '../../utils/openPdf.utils';
 
 @Component({
   selector: 'app-footer',
@@ -9,4 +10,8 @@ import { Component } from '@angular/core';
 })
 export class FooterComponent {
 
+
+  visualizeResume() {
+    openPDF();
+  }
 }

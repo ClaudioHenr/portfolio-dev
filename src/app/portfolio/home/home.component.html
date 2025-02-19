@@ -1,42 +1,31 @@
-<!-- <header>
-    <nav>
-    </nav>
-</header>
-<main>
-    <section>
-        <header>
-
-        </header>
-    </section>
-</main> -->
-
-
 <app-nav></app-nav>
-<main>
+<main>    
     <section id="header-section">
-        <div class="header-text">
+        <div class="header-content">
+
             <span>
                 <fa-icon [icon]="faCode" size="4x"></fa-icon>
             </span>
-            <h1>Claudio Oliveira</h1>
-            <h2>Desenvolvedor</h2>
+            <div>
+                <h1>Claudio Oliveira</h1>
+                <h2>Desenvolvedor FullStack</h2>
+            </div>
             <div class="header-icons">
-                <a href="https://github.com/ClaudioHenr">
-                    <fa-icon [icon]="faGithub" size="2x"></fa-icon>
+                <a href="https://github.com/ClaudioHenr" target="_blank">
+                    <fa-icon rel="preload" [icon]="faGithub" size="2x" loading="lazy"></fa-icon>
                 </a>
-                <a href="https://www.linkedin.com/in/claudio-oliveira20">
-                    <fa-icon [icon]="faLinkedin" size="2x"></fa-icon>
+                <a href="https://www.linkedin.com/in/claudio-oliveira20" target="_blank">
+                    <fa-icon rel="preload" [icon]="faLinkedin" size="2x" loading="lazy"></fa-icon>
                 </a>
             </div>
         </div>
         <div class="header-image">
-            <img src="./assets/images/me06_1.jpg" alt="">
+            <img src="./assets/images/me06_1-removebg.png" alt="">
         </div>
     </section>
-
     <app-skills></app-skills>
     
     <app-projects></app-projects>
 
-</main>    
+</main>
 <app-footer></app-footer>

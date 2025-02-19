@@ -3,13 +3,11 @@ h2 {
     margin-left: 80px;
 }
 
-
-
 hr {
     background-color: var(--tertiary-color);
     border-color: var(--tertiary-color);
 
-    width: 100%;
+    width: 80%;
 }
 
 #projects-section {
@@ -17,11 +15,6 @@ hr {
     align-items: center;
     justify-content: center;
 
-    width: 100%;
-
-    margin-top: 20px;
-    margin-bottom: 40px;
-    
     .projects-content {
         display: flex;
         align-items: center;
@@ -30,18 +23,14 @@ hr {
 
         width: 80%;
 
-        margin-top: 20px;
-
         .project-items {
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
 
-            height: 40vh;
-
             padding: 15px;
-            margin-top: 20px;
-            margin-bottom: 25px;
+            gap: 32px;
     
             .item {
                 flex: 1;
@@ -54,16 +43,49 @@ hr {
 
                 p {
                     color: white;
-
                     text-align: start;
+                }
+
+                .div-btn {
+                    display: flex;
+                    justify-content: flex-start;
                 }
             }
     
             img {
                 width: 400px;
-                height: 200px;
+                max-width: 100%;
+                height: auto;
             }
         }
     }
 }
 
+@media screen and (min-width: 920px) {    
+    #projects-section 
+    .projects-content 
+    .project-items {
+        flex-direction: row;
+        
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    #projects-section 
+    .projects-content
+    .project-items
+    .item
+    .div-btn {
+        display: flex;
+        justify-content: center;
+    }
+
+//     #projects-section 
+//     .projects-content 
+//     .project-items 
+//     .img {
+//         visibility: visible;
+//     }
+}

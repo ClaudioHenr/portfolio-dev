@@ -1,7 +1,6 @@
 
 main {
     display: flex;
-    // justify-content: center;
     flex-direction: column;
 }
 
@@ -20,44 +19,64 @@ fa-icon {
 #header-section {
     display: flex;
     align-items: center;
-    // justify-content: center;
+    // justify-content: space-between;
+
     height: 80vh;
 
     margin-bottom: 40px;
 
-    .header-text {
+    .header-content {
         flex: 1;
-        // Alinhar texto no centro
-        text-align: center;
-        margin: 10px;
-        margin-left: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        height: auto;
+        margin-left: 50px;
+
+        gap: 25px;
 
         h1 {
-            font-size: 58px;
+            font-size: 56px;
             font-family: Send Flowers;
-            // font-family: Ruthie;
-            // font-family: Rouge Script;
+            color: var(--primary-text);
+            margin: auto;
         }
 
         h2 {
-            font-size: 32px;
+            font-size: 20px;
             color: black;
+            margin: auto;
         }
     }
 
+    // .fa-icon {
+    //     font-size: 16px; /* Fallback size */
+    //     display: inline-block; /* Prevents block-level rendering */
+    //     width: 1em; /* Ensures proper sizing */
+    //     height: 1em;
+    //     line-height: 1em;
+    // }
+
+    .header-image {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    #header-section
     .header-image {
         flex: 1;
-        // Alinhar imagem no centro
         display: flex;
         justify-content: center;
         align-items: center;
         margin: 10px;
 
         img {
-            width: 40%;
-            height: 40%;
-    
+            width: 300px;
+            height: auto;
             margin-right: 40px;
+            z-index: -1;
         };
     }
 }

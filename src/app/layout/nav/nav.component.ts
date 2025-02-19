@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { changeFavicon } from '../../utils/favicon-utils';
 
 @Component({
   selector: 'app-nav',
@@ -9,4 +10,7 @@ import { Component } from '@angular/core';
 })
 export class NavComponent {
 
+  updateFavicon(iconPath: string) {
+    changeFavicon(iconPath)
+  }
 }
