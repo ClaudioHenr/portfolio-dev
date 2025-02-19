@@ -63,6 +63,8 @@ https://www.youtube.com/watch?v=F3HbnbT1Maw&t=272s
 Executar comando 
     ng build --output-path docs --base-href /portfolio-v1
 
+portifolio-v1
+
 Copiar arquivos de dist/browser
 Colar em docs/
 
