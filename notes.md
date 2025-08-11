@@ -61,7 +61,7 @@ pasta .../app/portfolio
 https://www.youtube.com/watch?v=F3HbnbT1Maw&t=272s
 
 Executar comando 
-    ng build --output-path docs --base-href /portfolio-v1/
+    ng build --output-path docs --base-href /portfolio-dev/
 
 Copiar arquivos de docs/browser
 Colar em docs/
