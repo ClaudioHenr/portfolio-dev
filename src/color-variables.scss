@@ -1,9 +1,13 @@
 :root {
+  /* Tema claro (default) */
+    --background-color: #ffffff;
     --primary-color: #2b2a33;
     --secondary-color: #42414d;
     --tertiary-color: rgb(224, 31, 31);
     --quaternary-color: #e7e7e7;
-    --quinary-color: ;
-    --senary-color: ;
     --primary-text: rgb(206, 202, 202);
+    --text-color: #2b2a33;
+    --button-bg: #e7e7e7;
+    --button-hover-bg: #d1d1d1;
 }
+

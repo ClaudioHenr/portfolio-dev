@@ -1,0 +1,143 @@
+<!-- Navbar -->
+<nav class="navbar">
+    <div class="logo">Claudio Oliveira</div>
+    <div class="social-icons">
+        <a href="https://github.com/ClaudioHenr" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/claudio-oliveira20" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+</nav>
+
+<!-- Sidebar -->
+<aside class="sidebar">
+    <ul>
+        <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="#projects"><i class="fas fa-code"></i> Projects</a></li>
+        <li><a href="#skills"><i class="fas fa-tools"></i> Skills</a></li>
+    </ul>
+</aside>
+
+<!-- Main Content -->
+<main class="main-content">
+    <!-- Home Section -->
+    <section id="home" class="section home-section">
+        <div class="home-content">
+            <div class="text">
+                <h1>Olá, eu sou Claudio Oliveira</h1>
+                <h2>Desenvolvedor FullStack</h2>
+                <a 
+                    (click)="visualizeResume()"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    class="btn btn-cv"
+                    aria-label="Visualizar Currículo"
+                >
+                    Currículo
+                </a>
+                <div class="social-icons">
+                    <a href="https://github.com/ClaudioHenr" target="_blank" aria-label="GitHub">
+                        <fa-icon rel="preload" [icon]="faGithub" size="2x" loading="lazy"></fa-icon>
+                    </a>
+                    <a href="https://www.linkedin.com/in/claudio-oliveira20" target="_blank" aria-label="LinkedIn">
+                        <fa-icon rel="preload" [icon]="faLinkedin" size="2x" loading="lazy"></fa-icon>
+                    </a>
+                </div>
+            </div>
+
+            <div class="image">
+            <img src="./assets/images/me06_1-removebg.png" alt="Foto de Claudio Oliveira" />
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <a href="https://angular.io/" target="_blank" rel="noopener noreferrer" class="skill-card">
+                <fa-icon [icon]="faAngular" size="3x"></fa-icon>
+                <span>Angular</span>
+            </a>
+            <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer" class="skill-card">
+                <fa-icon [icon]="faReact" size="3x"></fa-icon>
+                <span>React</span>
+            </a>
+            <a href="https://nodejs.org/" target="_blank" rel="noopener noreferrer" class="skill-card">
+                <fa-icon [icon]="faNodeJs" size="3x"></fa-icon>
+                <span>Node.js</span>
+            </a>
+            <a href="https://www.java.com/pt-BR/" target="_blank" rel="noopener noreferrer" class="skill-card">
+                <fa-icon [icon]="faJava" size="3x"></fa-icon>
+                <span>Java</span>
+            </a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer" class="skill-card">
+                <fa-icon [icon]="faHtml5" size="3x"></fa-icon>
+                <span>HTML5</span>
+            </a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noopener noreferrer" class="skill-card">
+                <fa-icon [icon]="faCss3Alt" size="3x"></fa-icon>
+                <span>CSS3</span>
+            </a>
+            <a href="https://www.python.org/" target="_blank" rel="noopener noreferrer" class="skill-card">
+                <fa-icon [icon]="faPython" size="3x"></fa-icon>
+                <span>Python / DJANGO</span>
+            </a>
+            <a href="https://www.mysql.com/" target="_blank" rel="noopener noreferrer" class="skill-card">
+                <fa-icon [icon]="faDatabase" size="3x"></fa-icon>
+                <span>MySQL / MongoDB</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <div class="project-text">
+                <h3>SqLab</h3>
+                <p>Aplicação criada para o ensino de consultas SQL</p>
+                <div>
+                    <a href="https://github.com/ClaudioHenr/sqlab-front" target="_blank" class="btn">Frontend</a>
+                </div>
+                <div>
+                    <a href="https://github.com/ClaudioHenr/sqlab-backend" target="_blank" class="btn">Backend</a>
+                </div>
+            </div>
+            <div class="project-image">
+                <img src="./assets/images/logo_sqlab.png" alt="Sea Surface Temperature">
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-text">
+                <h3>Sea Surface Temperature</h3>
+                <p>Visualização gráfica de oscilações de temperatura na superfície dos oceanos.</p>
+                <a href="https://github.com/ClaudioHenr/sea-surface-temperature" target="_blank" class="btn">Conferir</a>
+            </div>
+            <div class="project-image">
+                <img src="./assets/images/aquecimento-oceanico.webp" alt="Sea Surface Temperature">
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-text">
+                <h3>Catálogo de Cães</h3>
+                <p>Aplicativo React Native com informações e imagens de diversas raças.</p>
+                <a href="https://github.com/ClaudioHenr/DogsCatalogue" target="_blank" class="btn">Conferir</a>
+            </div>
+            <div class="project-image">
+                <img src="./assets/images/caes.webp" alt="Catálogo de Cães">
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-text">
+                <h3>Bantads</h3>
+                <p>Aplicação Angular 17 com back-end em microsserviços simulando um sistema bancário.</p>
+                <a href="https://github.com/ClaudioHenr/bantads" target="_blank" class="btn">Conferir</a>
+            </div>
+            <div class="project-image">
+                <img src="./assets/images/bancos_comerciais.jpg" alt="Bantads">
+            </div>
+        </div>
+    </section>
+</main>
