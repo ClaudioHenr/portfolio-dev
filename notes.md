@@ -66,7 +66,7 @@ Executar comando
 Copiar arquivos de docs/browser
 Colar em docs/
 
-por que no github está configurado para fazer buil do que estiver dentro de /docs
+por que no github está configurado para fazer build do que estiver dentro de /docs
 
 
 
